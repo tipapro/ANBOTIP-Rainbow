@@ -27,6 +27,7 @@ namespace BotAnbotip.Bot.Clients
 
         private static Task Loaded()
         {
+            if (_client.CurrentUser.Username != "ANBOTIP Rainbow") _client.CurrentUser.ModifyAsync((prop) => { prop.Username = "ANBOTIP Rainbow"; });
             return Log(new LogMessage(LogSeverity.Info, "", "Бот авторизован"));
         }
 
