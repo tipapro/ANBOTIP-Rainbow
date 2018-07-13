@@ -33,7 +33,7 @@ namespace BotAnbotip.Bot.Clients
 
         private static Task Disconnected(Exception ex)
         {
-            new ExceptionLogger().Log(ex, "ANBOTIP Rainbow отключён");
+            new ExceptionLogger().Log(ex, "Бот отключён");
             return Task.CompletedTask;
         }
 
