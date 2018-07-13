@@ -24,7 +24,7 @@ namespace BotAnbotip.Bot.Services
         public void TurnOffAll()
         {
             RainbowRoleAutoChange.Stop();
-            BotHelper.Stop();
+            //BotHelper.Stop();
         }
     }
 }
