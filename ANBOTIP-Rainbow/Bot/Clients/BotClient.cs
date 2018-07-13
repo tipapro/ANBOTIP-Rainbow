@@ -80,7 +80,7 @@ namespace BotAnbotip.Bot.Clients
 
         private static Task OnDisconnection(Exception ex)
         {
-            _cyclicActionManager.
+            _cyclicActionManager.TurnOffAll();
             return Task.CompletedTask;
         }
 
