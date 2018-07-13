@@ -17,7 +17,7 @@ namespace BotAnbotip.Bot.Services
         {
             while (IsStarted)
             {             
-                while (BotClient.Client.ConnectionState != ConnectionState.Connected)
+                while ((BotClient.Client.ConnectionState != ConnectionState.Connected) || (BotClient.Client.ConnectionState != ConnectionState.Connecting))
                 {
                     await Task.Delay(new TimeSpan(0, 0, 10), token);
                     await BotClient.Launch();
