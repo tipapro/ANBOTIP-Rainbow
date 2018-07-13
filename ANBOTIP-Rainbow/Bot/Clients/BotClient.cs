@@ -13,20 +13,11 @@ namespace BotAnbotip.Bot.Clients
         private static MessageHandler _msgHandler;
         private static ServiceManager _cyclicActionManager;
 
-        protected static DiscordSocketClient _client;
+        protected static DiscordSocketClient _client = new DiscordSocketClient();
         protected static SocketGuild _guild;
 
         public static DiscordSocketClient Client => _client;
         public static SocketGuild Guild => _guild;
-
-        public BotClient()
-        {
-            _client = new DiscordSocketClient();
-            _client.Log += Log;
-            _client.GuildAvailable += SetGuild;
-            _client.Connected += Loaded;
-            _client.Disconnected += Disconnected;
-        }
 
         private static Task SetGuild(SocketGuild guild)
         {
@@ -67,6 +58,10 @@ namespace BotAnbotip.Bot.Clients
 
         public static async Task PrepareAsync()
         {
+            _client.Log += Log;
+            _client.GuildAvailable += SetGuild;
+            _client.Connected += Loaded;
+            _client.Disconnected += Disconnected;
             _cyclicActionManager = new ServiceManager();
             _client.Connected += OnConnection;            
             _client.Disconnected += OnDisconnection;
