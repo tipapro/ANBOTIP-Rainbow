@@ -18,7 +18,7 @@ namespace BotAnbotip.Bot.Services
         public void RunAll()
         {
             if (DataManager.RainbowRoleIsRunning.Value) RainbowRoleAutoChange.Run();
-            BotHelper.Run();
+            //BotHelper.Run();
         }
 
         public void TurnOffAll()
