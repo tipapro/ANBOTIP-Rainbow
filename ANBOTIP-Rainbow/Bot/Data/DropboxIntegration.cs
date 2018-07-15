@@ -4,7 +4,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace BotAnbotip.Bot.Data
+namespace ANBOTIP_Rainbow.Bot.Data
 {
     class DropboxIntegration
     {

@@ -1,10 +1,10 @@
 ﻿using Discord;
 using System;
 using System.Threading.Tasks;
-using BotAnbotip.Bot.Data;
-using BotAnbotip.Bot.Clients;
+using ANBOTIP_Rainbow.Bot.Data;
+using ANBOTIP_Rainbow.Bot.Clients;
 
-namespace BotAnbotip.Bot.Commands
+namespace ANBOTIP_Rainbow.Bot.Commands
 {
     class BotControlCommands : CommandsBase
     {

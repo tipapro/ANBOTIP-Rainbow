@@ -1,9 +1,9 @@
-﻿using BotAnbotip.Bot.Clients;
-using BotAnbotip.Bot.Data;
+﻿using ANBOTIP_Rainbow.Bot.Clients;
+using ANBOTIP_Rainbow.Bot.Data;
 using Discord;
 using System.Threading.Tasks;
 
-namespace BotAnbotip
+namespace ANBOTIP_Rainbow
 {    public class Program
     {
         public static void Main(string[] args) => MainAsync().GetAwaiter().GetResult();

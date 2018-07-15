@@ -1,6 +1,6 @@
-﻿using BotAnbotip.Bot.Data;
+﻿using ANBOTIP_Rainbow.Bot.Data;
 
-namespace BotAnbotip.Bot.Services
+namespace ANBOTIP_Rainbow.Bot.Services
 {
     class ServiceManager
     {

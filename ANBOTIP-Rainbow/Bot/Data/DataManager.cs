@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BotAnbotip.Bot.Clients;
+using ANBOTIP_Rainbow.Bot.Clients;
 
-namespace BotAnbotip.Bot.Data
+namespace ANBOTIP_Rainbow.Bot.Data
 {
     public class DataManager
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BotAnbotip.Bot.Clients
+namespace ANBOTIP_Rainbow.Bot.Clients
 {
     class ExceptionLogger
     {

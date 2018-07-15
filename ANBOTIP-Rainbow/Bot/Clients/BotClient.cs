@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Discord.WebSocket;
-using BotAnbotip.Bot.Data;
-using BotAnbotip.Bot.Handlers;
-using BotAnbotip.Bot.Services;
+using ANBOTIP_Rainbow.Bot.Data;
+using ANBOTIP_Rainbow.Bot.Handlers;
+using ANBOTIP_Rainbow.Bot.Services;
 using Discord;
 
-namespace BotAnbotip.Bot.Clients
+namespace ANBOTIP_Rainbow.Bot.Clients
 {
     public class BotClient
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BotAnbotip.Bot.Commands
+namespace ANBOTIP_Rainbow.Bot.Commands
 {
     class CommandManager
     {

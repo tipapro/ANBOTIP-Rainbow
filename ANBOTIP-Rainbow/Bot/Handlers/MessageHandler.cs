@@ -1,10 +1,10 @@
 ﻿using Discord.WebSocket;
 using System;
 using System.Threading.Tasks;
-using BotAnbotip.Bot.Commands;
-using BotAnbotip.Bot.Clients;
+using ANBOTIP_Rainbow.Bot.Commands;
+using ANBOTIP_Rainbow.Bot.Clients;
 
-namespace BotAnbotip.Bot.Handlers
+namespace ANBOTIP_Rainbow.Bot.Handlers
 {
     class MessageHandler
     {

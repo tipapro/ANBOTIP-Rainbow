@@ -1,10 +1,10 @@
-﻿using BotAnbotip.Bot.Clients;
+﻿using ANBOTIP_Rainbow.Bot.Clients;
 using Discord;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BotAnbotip.Bot.Services
+namespace ANBOTIP_Rainbow.Bot.Services
 {
     class ServiceBase
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace BotAnbotip.Bot.Data
+namespace ANBOTIP_Rainbow.Bot.Data
 {
     [JsonObject]
     public class DropboxData<T>

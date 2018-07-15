@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BotAnbotip.Bot.Commands
+namespace ANBOTIP_Rainbow.Bot.Commands
 {
     public abstract class CommandsBase
     {

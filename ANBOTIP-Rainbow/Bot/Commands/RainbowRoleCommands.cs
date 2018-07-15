@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BotAnbotip.Bot.Data;
+using ANBOTIP_Rainbow.Bot.Data;
 using Discord;
-using BotAnbotip.Bot.Services;
-using BotAnbotip.Bot.Clients;
+using ANBOTIP_Rainbow.Bot.Services;
+using ANBOTIP_Rainbow.Bot.Clients;
 
-namespace BotAnbotip.Bot.Commands
+namespace ANBOTIP_Rainbow.Bot.Commands
 {
     class RainbowRoleCommands : CommandsBase
     {

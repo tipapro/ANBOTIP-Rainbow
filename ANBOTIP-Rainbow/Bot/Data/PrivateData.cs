@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BotAnbotip.Bot.Data
+namespace ANBOTIP_Rainbow.Bot.Data
 {
     class PrivateData
     {
